@@ -8,12 +8,12 @@
 Summary:	File::RsyncP - perl implementation of an rsync client
 Summary(pl):	File::RsyncP - implementacja klienta rsync w perlu
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.44
+Version:	0.46
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1c238af568362c8ed6da7d2691fda1bb
+# Source0-md5:	b26561cc6fb32c4e73595ee941207a8c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
