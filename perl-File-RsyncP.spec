@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	File
 %define	pnam	RsyncP
-Summary:	File::RsyncP - perl implementation of an rsync client
-Summary(pl):	File::RsyncP - implementacja klienta rsync w perlu
+Summary:	File::RsyncP - Perl implementation of an rsync client
+Summary(pl):	File::RsyncP - implementacja klienta rsync w Perlu
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.50
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e444b1b5f0981043e3b462fc4178f0b0
@@ -19,7 +19,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-File::RsyncP is a perl implementation of an rsync client. It can send
+File::RsyncP is a Perl implementation of an rsync client. It can send
 or receive files, either by running rsync on the remote machine, or
 connecting to an rsyncd deamon on the remote machine.
 
@@ -33,7 +33,7 @@ native rsync. Instead it provides an API that makes it possible to
 write simple scripts that talk to rsync or rsyncd.
 
 %description -l pl
-File::RsyncP jest implementacj± klienta rsync w perlu. Umo¿liwia
+File::RsyncP jest implementacj± klienta rsync w Perlu. Umo¿liwia
 wysy³anie i pobieranie plików, zarówno przez uruchomionego zdalnie
 klienta rsync jak i przez po³±czenie z demonem rsyncd na zdalnej
 maszynie.
@@ -48,7 +48,6 @@ File::RsyncP nie udostêpnia jeszcze interaktywnego interfejsu
 na¶laduj±cego liniê poleceñ programu rsync. W zamian udostêpnia API,
 umo¿liwiaj±ce pisanie prostych skryptów do komunikacji z rsync
 i rsyncd.
-
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
