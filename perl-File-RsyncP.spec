@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	RsyncP
+%define		pdir	File
+%define		pnam	RsyncP
 Summary:	File::RsyncP - Perl implementation of an rsync client
 Summary(pl):	File::RsyncP - implementacja klienta rsync w Perlu
 Name:		perl-File-RsyncP
