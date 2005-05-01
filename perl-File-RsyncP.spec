@@ -72,12 +72,12 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorarch}/%{pdir}/%{pnam}.pm
-%dir %{perl_vendorarch}/%{pdir}/%{pnam}
-%{perl_vendorarch}/%{pdir}/%{pnam}/*.pm
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}/Digest
-%dir %{perl_vendorarch}/auto/%{pdir}/%{pnam}/FileList
-%{perl_vendorarch}/auto/%{pdir}/%{pnam}/*/*.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/%{pdir}/%{pnam}/*/*.so
+%{perl_vendorarch}/File/RsyncP.pm
+%dir %{perl_vendorarch}/File/RsyncP
+%{perl_vendorarch}/File/RsyncP/*.pm
+%dir %{perl_vendorarch}/auto/File/RsyncP
+%dir %{perl_vendorarch}/auto/File/RsyncP/Digest
+%dir %{perl_vendorarch}/auto/File/RsyncP/FileList
+%{perl_vendorarch}/auto/File/RsyncP/*/*.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/File/RsyncP/*/*.so
 %{_mandir}/man3/*
