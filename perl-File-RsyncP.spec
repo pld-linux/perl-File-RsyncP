@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 File::RsyncP is a Perl implementation of an rsync client. It can send
 or receive files, either by running rsync on the remote machine, or
-connecting to an rsyncd deamon on the remote machine.
+connecting to an rsyncd daemon on the remote machine.
 
 File::RsyncP seperates all file system I/O into a seperate module
 (File::RsyncP::FileIO), which can be replaced by any module of your
