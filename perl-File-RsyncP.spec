@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	RsyncP
 Summary:	File::RsyncP - Perl implementation of an rsync client
-Summary(pl):	File::RsyncP - implementacja klienta rsync w Perlu
+Summary(pl.UTF-8):   File::RsyncP - implementacja klienta rsync w Perlu
 Name:		perl-File-RsyncP
 Version:	0.62
 Release:	0.1
@@ -32,21 +32,21 @@ File::RsyncP does not yet provide a command-line interface that mimics
 native rsync. Instead it provides an API that makes it possible to
 write simple scripts that talk to rsync or rsyncd.
 
-%description -l pl
-File::RsyncP jest implementacj± klienta rsync w Perlu. Umo¿liwia
-wysy³anie i pobieranie plików, zarówno przez uruchomionego zdalnie
-klienta rsync jak i przez po³±czenie z demonem rsyncd na zdalnej
+%description -l pl.UTF-8
+File::RsyncP jest implementacjÄ… klienta rsync w Perlu. UmoÅ¼liwia
+wysyÅ‚anie i pobieranie plikÃ³w, zarÃ³wno przez uruchomionego zdalnie
+klienta rsync jak i przez poÅ‚Ä…czenie z demonem rsyncd na zdalnej
 maszynie.
 
-Wszystkie operacje wej¶cia/wyj¶cia na systemie plików zosta³y
-wyodrêbnione do oddzielnego modu³u (File::RsyncP::FileIO), który mo¿e
-byæ zast±piony przez inny modu³ w³asnego projektu. Umo¿liwia to w
-miarê proste tworzenie interfejsów do rsynca, które nie operuj± na
-systemie plików a np. na bazach danych.
+Wszystkie operacje wejÅ›cia/wyjÅ›cia na systemie plikÃ³w zostaÅ‚y
+wyodrÄ™bnione do oddzielnego moduÅ‚u (File::RsyncP::FileIO), ktÃ³ry moÅ¼e
+byÄ‡ zastÄ…piony przez inny moduÅ‚ wÅ‚asnego projektu. UmoÅ¼liwia to w
+miarÄ™ proste tworzenie interfejsÃ³w do rsynca, ktÃ³re nie operujÄ… na
+systemie plikÃ³w a np. na bazach danych.
 
-File::RsyncP nie udostêpnia jeszcze interaktywnego interfejsu
-na¶laduj±cego liniê poleceñ programu rsync. W zamian udostêpnia API,
-umo¿liwiaj±ce pisanie prostych skryptów do komunikacji z rsync
+File::RsyncP nie udostÄ™pnia jeszcze interaktywnego interfejsu
+naÅ›ladujÄ…cego liniÄ™ poleceÅ„ programu rsync. W zamian udostÄ™pnia API,
+umoÅ¼liwiajÄ…ce pisanie prostych skryptÃ³w do komunikacji z rsync
 i rsyncd.
 
 %prep
