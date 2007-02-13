@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	RsyncP
 Summary:	File::RsyncP - Perl implementation of an rsync client
-Summary(pl.UTF-8):   File::RsyncP - implementacja klienta rsync w Perlu
+Summary(pl.UTF-8):	File::RsyncP - implementacja klienta rsync w Perlu
 Name:		perl-File-RsyncP
 Version:	0.62
 Release:	0.1
