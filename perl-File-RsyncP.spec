@@ -12,7 +12,7 @@ Version:	0.70
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/C/CB/CBARRATT/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f244372d15a2991b8700f62e73ac51e4
 URL:		http://search.cpan.org/dist/File-RsyncP/
 BuildRequires:	perl-devel >= 1:5.8.0
