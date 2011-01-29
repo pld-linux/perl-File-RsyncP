@@ -15,6 +15,7 @@ Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CB/CBARRATT/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f244372d15a2991b8700f62e73ac51e4
 URL:		http://search.cpan.org/dist/File-RsyncP/
+BuildRequires:	perl-Encode
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
