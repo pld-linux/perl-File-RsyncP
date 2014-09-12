@@ -80,6 +80,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/File/RsyncP
 %dir %{perl_vendorarch}/auto/File/RsyncP/Digest
 %dir %{perl_vendorarch}/auto/File/RsyncP/FileList
-%{perl_vendorarch}/auto/File/RsyncP/*/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/File/RsyncP/*/*.so
 %{_mandir}/man3/*
