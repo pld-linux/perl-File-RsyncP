@@ -8,7 +8,7 @@ Summary:	File::RsyncP - Perl implementation of an rsync client
 Summary(pl.UTF-8):	File::RsyncP - implementacja klienta rsync w Perlu
 Name:		perl-File-RsyncP
 Version:	0.70
-Release:	15
+Release:	16
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CB/CBARRATT/%{pdir}-%{pnam}-%{version}.tar.gz
