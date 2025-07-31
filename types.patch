@@ -1,0 +1,19 @@
+--- File-RsyncP-0.70/FileList/rsync.h.orig	2010-07-25 22:50:02.000000000 +0200
++++ File-RsyncP-0.70/FileList/rsync.h	2025-07-31 20:14:07.340033113 +0200
+@@ -147,6 +147,7 @@
+ #endif
+ #include <stdio.h>
+ #include <stddef.h>
++#include <stdint.h>
+ 
+ #ifdef HAVE_SYS_PARAM_H
+ #include <sys/param.h>
+@@ -328,7 +329,7 @@
+ #define uint64 unsigned long long
+ #else
+ /* As long as it gets... */
+-#define uint64 unsigned off_t
++#define uint64 uint64_t
+ #endif
+ 
+ /* Starting from protocol version 26, we always use 64-bit

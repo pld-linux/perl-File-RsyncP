@@ -13,6 +13,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CB/CBARRATT/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f244372d15a2991b8700f62e73ac51e4
+Patch0:		types.patch
 URL:		http://search.cpan.org/dist/File-RsyncP/
 BuildRequires:	perl-Encode
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -52,6 +53,7 @@ i rsyncd.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
